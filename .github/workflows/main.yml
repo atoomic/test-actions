@@ -13,3 +13,5 @@ jobs:
     # Use the output from the `hello` step
     - name: cpm path
       run: echo "cpm path ${{ steps.installcpm.outputs.cpm }}"
+    - name: which cpm
+      run: which cpm
