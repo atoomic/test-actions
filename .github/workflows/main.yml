@@ -11,5 +11,5 @@ jobs:
       with:
         who-to-greet: 'some args'
     # Use the output from the `hello` step
-    - name: Get the output time
-      run: echo "The time was ${{ steps.installcpm.outputs.time }}"
+    - name: cpm path
+      run: echo "cpm path ${{ steps.installcpm.outputs.cpm }}"
